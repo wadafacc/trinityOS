@@ -7,6 +7,46 @@
 
 }
 
+@font-face {
+    font-family: "SFB";
+    src: url(~/assets/fonts/SFBOLD.OTF);
+}
+
+@font-face {
+    font-family: "SFSB";
+    src: url(~/assets/fonts/SFSEMIBOLD.OTF);
+}
+
+@font-face {
+    font-family: "SFHI";
+    src: url(~/assets/fonts/SFHEAVYITALIC.OTF);
+}
+
+@font-face {
+    font-family: "SFR";
+    src: url(~/assets/fonts/SFREGULAR.OTF);
+}
+
+@font-face {
+    font-family: "SFTI";
+    src: url(~/assets/fonts/SFTHINITALIC.OTF);
+}
+
+@font-face {
+    font-family: "SFLI";
+    src: url(~/assets/fonts/SFLIGHTITALIC.OTF);
+}
+
+@font-face {
+    font-family: "SFI";
+    src: url(~/assets/fonts/SFITALIC.OTF);
+}
+
+@font-face {
+    font-family: "SFM";
+    src: url(~/assets/fonts/SFMEDIUM.OTF);
+}
+
 img {
     backface-visibility: hidden;
     -ms-transform: translateZ(0);
@@ -40,4 +80,14 @@ h2 {
     font-family: 'Space Mono', monospace;
     font-style: italic;
     font-weight: 200;
+}
+
+h4 {
+    font-family: "SFR", serif;
+    font-size: 1.5rem;
+}
+
+h5 {
+    font-family: "SFTI", serif;
+    font-size: 1.5rem;
 }
