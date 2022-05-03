@@ -1,10 +1,12 @@
 <template>
   <div class="tContainer">
     <div class="taskbar">
-      <div class="icons">
-        <img src="~/static/icons/finder.png" alt="" />
-        <img src="~/static/icons/terminal.png" alt="" />
-      </div>
+      <img src="~/static/icons/37_finder.png" alt="" class="icon" />
+      <img src="~/static/icons/07_terminal.png" alt="" class="icon" />
+      <img src="~/static/icons/15_safari.png" alt="" class="icon" />
+      <img src="~/static/icons/55_calendar.png" alt="" class="icon" />
+      <img src="~/static/icons/63_appstore.png" alt="" class="icon" />
+      <img src="~/static/icons/08_settings.png" alt="" class="icon" />
     </div>
   </div>
 </template>
